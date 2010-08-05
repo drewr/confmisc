@@ -1,0 +1,20 @@
+[general]
+accounts = Test
+
+[Account Test]
+localrepository = TestLocal
+remoterepository = TestRemote
+
+[Repository TestLocal]
+type = IMAP
+remotehost = localhost
+remoteuser = testdroid1000
+remotepass = imap
+
+[Repository TestRemote]
+type = IMAP
+remotehost = imap.gmail.com
+remoteuser = testdroid1000@gmail.com
+ssl = yes
+remotepassfile = ~/.authtestdroid1000
+
