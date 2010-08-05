@@ -19,7 +19,7 @@ type = IMAP
 remotehost = imap.gmail.com
 remoteuser = testdroid1000@gmail.com
 ssl = yes
-remotepassfile = ~/.authtestdroid1000
+remotepassfile = ~/.auth.testdroid1000@gmail.com
 
 [Account AARAINES]
 localrepository = AARAINESLOCAL
