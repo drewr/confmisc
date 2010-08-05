@@ -1,5 +1,8 @@
 [general]
 accounts = Test
+ui = Noninteractive.Basic
+maxsize = 700000
+maxage = 3
 
 [Account Test]
 localrepository = TestLocal
