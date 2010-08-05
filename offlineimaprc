@@ -20,6 +20,8 @@ remotehost = imap.gmail.com
 remoteuser = testdroid1000@gmail.com
 ssl = yes
 remotepassfile = ~/.auth.testdroid1000@gmail.com
+folderfilter = lambda foldername: 0
+folderincludes = ['Foo']
 
 [Account AARAINES]
 localrepository = AARAINESLOCAL
@@ -37,4 +39,9 @@ remotehost = imap.gmail.com
 remoteuser = aaraines@gmail.com
 ssl = yes
 remotepassfile = ~/.auth.aaraines@gmail.com
+folderfilter = lambda foldername: 0
+folderincludes = ['CLJDEV', 'ENLIVE',
+                  'LEDGER', 'LEIN', 'RING',
+                  'SWANK', 'TMUX']
+
 
