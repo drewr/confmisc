@@ -1,5 +1,5 @@
 [general]
-accounts = Test
+accounts = Test, AARAINES
 ui = Noninteractive.Basic
 maxsize = 700000
 maxage = 3
@@ -20,4 +20,21 @@ remotehost = imap.gmail.com
 remoteuser = testdroid1000@gmail.com
 ssl = yes
 remotepassfile = ~/.authtestdroid1000
+
+[Account AARAINES]
+localrepository = AARAINESLOCAL
+remoterepository = AARAINESGMAIL
+
+[Repository AARAINESLOCAL]
+type = IMAP
+remotehost = localhost
+remoteuser = aaraines
+remotepass = imap
+
+[Repository AARAINESGMAIL]
+type = IMAP
+remotehost = imap.gmail.com
+remoteuser = aaraines@gmail.com
+ssl = yes
+remotepassfile = ~/.auth.aaraines@gmail.com
 
