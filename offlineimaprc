@@ -41,11 +41,11 @@ ssl = yes
 remotepassfile = ~/.auth.aaraines@gmail.com
 folderfilter = lambda foldername: 0
 folderincludes = [
-  'CLJUSER',
-  'CLJDEV',
-  'ENLIVE',
+  'list.clj.devel',
+  'list.clj.user',
+  'list.enlive',
   'list.ledger',
+  'list.lein',
+  'list.ring',
   'list.swank',
-  'list.tmux',
-  'LEIN',
-  'RING']
+  'list.tmux']
