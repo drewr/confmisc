@@ -45,7 +45,7 @@ folderincludes = [
   'CLJDEV',
   'ENLIVE',
   'list.ledger',
+  'list.swank',
   'list.tmux',
   'LEIN',
-  'RING',
-  'SWANK']
+  'RING']
