@@ -40,8 +40,12 @@ remoteuser = aaraines@gmail.com
 ssl = yes
 remotepassfile = ~/.auth.aaraines@gmail.com
 folderfilter = lambda foldername: 0
-folderincludes = ['CLJUSER', 'CLJDEV', 'ENLIVE',
-                  'LEDGER', 'LEIN', 'RING',
-                  'SWANK', 'TMUX']
-
-
+folderincludes = [
+  'CLJUSER',
+  'CLJDEV',
+  'ENLIVE',
+  'list.ledger',
+  'list.tmux',
+  'LEIN',
+  'RING',
+  'SWANK']
